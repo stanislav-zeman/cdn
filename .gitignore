@@ -1,0 +1,22 @@
+# Build files
+debug/
+target/
+
+# Cargo dependencies lock file
+Cargo.lock
+
+# rustfmt backup files
+**/*.rs.bk
+
+# MSVC Windows builds
+*.pdb
+
+# Configuration
+.env
+
+# MacOS
+.DS_Store
+
+# IDEs and editors
+.idea
+.vscode
